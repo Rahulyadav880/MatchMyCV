@@ -1,0 +1,1 @@
+{"version":3,"file":"analysis.d.ts","sourceRoot":"","sources":["../../src/types/analysis.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,cAAc;IAC7B,QAAQ,EAAE,MAAM,CAAC;IACjB,gBAAgB,EAAE,MAAM,CAAC;IAEzB,YAAY,EAAE,MAAM,CAAC;IACrB,gBAAgB,EAAE,MAAM,CAAC;IAEzB,aAAa,EAAE,MAAM,EAAE,CAAC;IACxB,aAAa,EAAE,MAAM,EAAE,CAAC;IAExB,eAAe,EAAE,MAAM,EAAE,CAAC;CAC3B"}
