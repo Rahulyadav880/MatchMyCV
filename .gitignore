@@ -2,3 +2,4 @@ node_modules/
 apps/server/dist/
 packages/resume-parser/dist/
 packages/shared/dist/
+**/.env
