@@ -1,0 +1,29 @@
+{
+  "name": "@resume-analyzer/resume-parser",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.5.1",
+    "@types/pdf-parse": "^1.1.5",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "pdf-parse": "^2.4.5"
+  }
+}
