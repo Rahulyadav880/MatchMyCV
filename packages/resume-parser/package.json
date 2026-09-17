@@ -12,7 +12,8 @@
     }
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test:edu": "tsx src/test-education.ts"
   },
   "keywords": [],
   "author": "",
@@ -21,9 +22,11 @@
   "devDependencies": {
     "@types/node": "^26.5.1",
     "@types/pdf-parse": "^1.1.5",
+    "tsx": "^4.19.0",
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "@resume-analyzer/shared": "workspace:*",
     "pdf-parse": "^2.4.5"
   }
 }

@@ -1,3 +1,4 @@
+
 export interface ResumeDocument {
   id: string;
   fileName: string;
@@ -66,3 +67,4 @@ export interface ParsedResume {
   skills: Skill[];
   certifications: Certification[];
 }
+
