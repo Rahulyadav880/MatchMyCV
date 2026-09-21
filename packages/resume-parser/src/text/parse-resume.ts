@@ -50,8 +50,8 @@ export function parseResume(
     : [];
 
   const certifications = certificationsSection
-  ? parseCertifications(certificationsSection.content)
-  : [];
+    ? parseCertifications(certificationsSection.content)
+    : [];
 
   const personalInfo =
     parsePersonalInfo(rawText);

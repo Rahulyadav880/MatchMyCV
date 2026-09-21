@@ -23,3 +23,6 @@ export type{resumeResponse} from "./schemas/resume.schema.js";
 export {apiErrorSchema} from "./schemas/api.schema.js";
 
 export type{apiError} from "./schemas/api.schema.js";
+
+export * from "./types/analysis.js";
+

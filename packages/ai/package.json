@@ -1,0 +1,33 @@
+{
+  "name": "@resume-analyzer/ai",
+  "version": "1.0.0",
+  "private": true,
+  "types": "./dist/index.d.ts",
+  "description": "",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx src/test-analyzer.ts"
+  },
+  "dependencies": {
+    "@resume-analyzer/resume-parser": "workspace:*",
+    "@resume-analyzer/shared": "workspace:*",
+    "dotenv": "^18.0.1",
+    "openai": "^7.20.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}

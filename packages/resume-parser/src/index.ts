@@ -29,3 +29,10 @@ export {
   parseProjects,
 } from "./text/project-parser.js";
 
+export {
+  parseExperience,
+} from "./text/experience-parser.js";
+
+export {
+  parseCertifications,
+} from "./text/certification-parser.js";
